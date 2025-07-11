@@ -270,3 +270,137 @@ body {
     color: #666;
     font-size: 14px;
 }
+.ready-section {
+    padding: 80px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.ready-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.ready-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+.ready-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.get-started-btn {
+    background-color: #4F46E5;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #3730A3;
+}
+
+.focus-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+
+.contact-section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.contact-left {
+    flex: 1;
+}
+
+.contact-title {
+    font-size: 95px;
+    font-weight: bold;
+    color: #1F2937;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    padding-top: 120px;
+}
+
+.contact-right {
+    flex: 1;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 0;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4F46E5;
+    box-shadow: 0 0 0 3px rgba(91, 95, 237, 0.1);
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact-btn {
+    background-color: #4F46E5;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #3730A3;
+}

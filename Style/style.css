@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-  background-image: url('../images/Hero-bg.png');
+  background-image: url('../images/hero-bg.png');
   background-size: cover;
   background-position: center;
   padding: 15px 0;
@@ -49,13 +49,12 @@ body {
 }
 
 .banner {
-    background-image: url('../images/Hero-bg.png');
-    background-size: cover;
-    background-position: center;
-    padding: 120px 20px 80px;
-    text-align: center;
-    margin-top: 60px;
-    background-color: #F3F4F6;
+  background-image: url('../images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px 80px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 .banner-content {

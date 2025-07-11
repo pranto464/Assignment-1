@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #f5f8ff;
+}
+
+.navbar {
+    background-image: url('/Images/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4F46E5;
+}
+
+.signup-btn {
+    background-color: #4F46E5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #3730A3;
+}
+
+.banner {
+    background-image: url('/Images/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px 80px;
+    text-align: center;
+    margin-top: 60px;
+    background-color: #F3F4F6;
+}
+
+.banner-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.banner-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+}
+.stay-focused-btn {
+    background-color: #4F46E5;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.stay-focused-btn:hover {
+    background-color: #3730A3;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(91, 95, 237, 0.4);
+}

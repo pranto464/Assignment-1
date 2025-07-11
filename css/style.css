@@ -10,7 +10,7 @@ body {
 }
 
 .navbar {
-  background-image: url('../images/hero-bg.png');
+  background-image: url('../Images/hero-bg.png');
   background-size: cover;
   background-position: center;
   padding: 15px 0;
@@ -49,7 +49,7 @@ body {
 }
 
 .banner {
-  background-image: url('../images/hero-bg.png');
+  background-image: url('../Images/hero-bg.png');
   background-size: cover;
   background-position: center;
   padding: 120px 20px 80px;

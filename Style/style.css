@@ -192,3 +192,81 @@ body {
 .stat-label {
     color: #666;
 }
+.feedback-section {
+    padding: 80px 20px;
+    background-color: white;
+}
+
+.feedback-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feedback-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-bottom: 50px;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+
+.testimonials {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 350px;
+    text-align: left;
+    border: 1px solid #E5E7EB;
+}
+
+.stars {
+    color: #FFC107;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.testimonial-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.testimonial-text {
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.reviewer-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 14px;
+}
+
+.reviewer-date {
+    color: #666;
+    font-size: 14px;
+}
